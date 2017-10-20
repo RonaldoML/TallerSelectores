@@ -43,9 +43,24 @@ li[name='fork']{
 }
 /*Pseudo-clases y Pseudo-elementos*/
 
+nav > ul > li a:hover{
+	color:green;
+}
+
+p[class*="descripcion"]::first-letter{
+	font-size: 22pt;
+	font-weight:bold;
+}
+img{
+	width:15%;
+	text-align:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 /*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
-/*section#left {
+section#left {
 	float:left;
 	width:70%;
 	
@@ -57,4 +72,4 @@ aside#right {
 
 footer#footer {
 	clear:both;
-}*/
+}
