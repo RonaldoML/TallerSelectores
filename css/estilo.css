@@ -1,47 +1,63 @@
-/*Selectores básicos*/
+/*2*/
 body {
-	font-family: verdana;
-}
-body > header > h1 {
-	color:blue;
-	text-align:center;
+ 	font-family: verdana;
+ }
+ body > header > h1 {
+ 	color:blue;
+ 	text-align:center;
+ }
+ 
+ header > img {
+ 	width:10%;
+ 	text-align:center;
+ 	display:block;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
+ 
+ .elemento-menu{
+ 	display:inline;
+ 	list-style-type:none;
+ }
+  ul[id*="menu"]{
+  	text-align:center;
+  }
+ -#footer {
+ +
+ +footer[id*="footer"] {
+  	text-align:center;
+ -	font-family:italic;
+ +}
+ +h3+h4{
+ +	font-style:italic;
+  	color:green;
+  }
+ -body > aside > ul > li> h5 {
+ +h5 ~ p{
+  	font-size:8pt;
+  }
+  h5[title$="small"]{
+  	text-decoration: underline;
+ }
+ li[name='fork']{
+ 	list-style-image:  url("https://images-eu.ssl-images-amazon.com/images/I/414j3RoOwkL._SS40_.jpg");
+ }
+
+nav > ul > li a:hover{
+	color:green;
 }
 
-header[id*="cabecera"] > img {
-	width:10%;
+p[class*="descripcion"]::first-letter{
+	font-size: 22pt;
+	font-weight:bold;
+}
+img{
+	width:15%;
 	text-align:center;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 }
-
-.elemento-menu{
-	display:inline;
-	list-style-type:none;
-}
-ul[id*="menu"]{
-	text-align:center;
-}
-
-/*selectores avanzados*/
-footer[id*="footer"] {
-	text-align:center;
-	font-style:italic;
-}
-h3+h4{
-	font-style:italic;
-	color:green;
-}
-h5 ~ p{
-	font-size:8pt;
-}
-h5[title$="small"]{
-	text-decoration: underline;
-}
-li[name='fork']{
-	list-style-image:  url("https://images-eu.ssl-images-amazon.com/images/I/414j3RoOwkL._SS40_.jpg");
-}
-/*Pseudo-clases y Pseudo-elementos*/
 
 
 /*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
@@ -54,7 +70,6 @@ aside#right {
 	float:right;
 	width:25%;
 }
-
 footer#footer {
 	clear:both;
 }*/
