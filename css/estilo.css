@@ -1,4 +1,4 @@
-/*2*/
+/*Selectores básicos*/
 body {
 	font-family: verdana;
 }
@@ -22,7 +22,7 @@ header > img {
 ul[id*="menu"]{
 	text-align:center;
 }
-
+/*selectores avanzados*/
 footer[id*="footer"] {
 	text-align:center;
 }
