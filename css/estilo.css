@@ -32,7 +32,7 @@ body {
  +	font-style:italic;
   	color:green;
   }
- -body > aside > ul > li> h5 {
+ 
  +h5 ~ p{
   	font-size:8pt;
   }
@@ -59,17 +59,3 @@ img{
 	margin-right:auto;
 }
 
-
-/*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
-/*section#left {
-	float:left;
-	width:70%;
-	
-}
-aside#right {
-	float:right;
-	width:25%;
-}
-footer#footer {
-	clear:both;
-}*/
