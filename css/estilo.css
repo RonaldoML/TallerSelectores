@@ -22,12 +22,15 @@ header > img {
 ul[id*="menu"]{
 	text-align:center;
 }
-#footer {
+
+footer[id*="footer"] {
 	text-align:center;
-	font-family:italic;
+}
+h3+h4{
+	font-style:italic;
 	color:green;
 }
-body > aside > ul > li> h5 {
+h5 ~ p{
 	font-size:8pt;
 }
 h5[title$="small"]{
