@@ -1,6 +1,32 @@
 
+body {
+	font-family: verdana;
+}
+body > header > h1 {
+	color:blue;
+	text-align:center;
+}
+header > img {
+	width:10%;
+	text-align:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
 
-
+.elemento-menu{
+	text-align:center;
+	display:inline;
+	list-style-type:none;
+}
+#footer {
+	text-align:center;
+	font-family:italic;
+	color:green;
+}
+body > aside > ul > li> h5 {
+	font-size:8pt;
+}
 
 /*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
 /*section#left {
