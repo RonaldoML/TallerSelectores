@@ -7,7 +7,7 @@ body > header > h1 {
 	text-align:center;
 }
 
-header > img {
+header[id*="cabecera"] > img {
 	width:10%;
 	text-align:center;
 	display:block;
@@ -22,9 +22,11 @@ header > img {
 ul[id*="menu"]{
 	text-align:center;
 }
+
 /*selectores avanzados*/
 footer[id*="footer"] {
 	text-align:center;
+	font-style:italic;
 }
 h3+h4{
 	font-style:italic;
@@ -39,6 +41,8 @@ h5[title$="small"]{
 li[name='fork']{
 	list-style-image:  url("https://images-eu.ssl-images-amazon.com/images/I/414j3RoOwkL._SS40_.jpg");
 }
+/*Pseudo-clases y Pseudo-elementos*/
+
 
 /*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
 /*section#left {
