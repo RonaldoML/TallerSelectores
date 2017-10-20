@@ -19,8 +19,8 @@ header > img {
 	display:inline;
 	list-style-type:none;
 }
-.menu{
-	text-align: center;
+ul[id*="menu"]{
+	text-align:center;
 }
 #footer {
 	text-align:center;
@@ -29,6 +29,9 @@ header > img {
 }
 body > aside > ul > li> h5 {
 	font-size:8pt;
+}
+h5[title$="small"]{
+	text-decoration: underline;
 }
 li[name='fork']{
 	list-style-image:  url("https://images-eu.ssl-images-amazon.com/images/I/414j3RoOwkL._SS40_.jpg");
